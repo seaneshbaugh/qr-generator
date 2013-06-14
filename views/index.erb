@@ -1,0 +1,59 @@
+<div class="row">
+  <div id="qr-code-generator" class="span6">
+    <form class="form-horizontal">
+      <div class="control-group">
+        <label class="control-label" for="first-name">First Name *</label>
+        <div class="controls">
+          <input type="text" name="first_name" id="first-name">
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="last-name">Last Name *</label>
+        <div class="controls">
+          <input type="text" name="last_name" id="last-name">
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="email">Email *</label>
+        <div class="controls">
+          <input type="email" name="email" id="email">
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="title">Title</label>
+        <div class="controls">
+          <input type="text" name="title" id="title">
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="company">Company</label>
+        <div class="controls">
+          <input type="text" name="company" id="company">
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="phone">Phone</label>
+        <div class="controls">
+          <input type="tel" name="phone" id="phone">
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="website">Website</label>
+        <div class="controls">
+          <input type="url" name="website" id="website">
+        </div>
+      </div>
+      <div class="control-group">
+        <div class="controls">
+          <button type="submit" id="email-qr-code" class="btn btn-primary">Email QR Code</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div id="qr-code" class="span6"></div>
+</div>
+<div class="row">
+  <div class="span12">
+    <p id="email-result"></p>
+  </div>
+</div>

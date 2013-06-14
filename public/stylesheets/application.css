@@ -1,0 +1,15 @@
+body {
+    padding-top: 30px;
+}
+
+#qr-code {
+    text-align: center;
+}
+
+#qr-code img {
+    width: 350px;
+}
+
+#email-result {
+    text-align: center;
+}
